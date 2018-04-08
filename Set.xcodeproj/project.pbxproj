@@ -15,6 +15,8 @@
 		04B314A5207A83DF00D97702 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B314A4207A83DF00D97702 /* Constants.swift */; };
 		04B314A7207A842700D97702 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B314A6207A842700D97702 /* Set.swift */; };
 		04B314A9207A862B00D97702 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B314A8207A862B00D97702 /* Card.swift */; };
+		04B314AB207A886900D97702 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B314AA207A886900D97702 /* Extensions.swift */; };
+		04B314AD207A8F0100D97702 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B314AC207A8F0100D97702 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		04B314A4207A83DF00D97702 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04B314A6207A842700D97702 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		04B314A8207A862B00D97702 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		04B314AA207A886900D97702 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04B314AC207A8F0100D97702 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,10 @@
 				04B31495207A73D000D97702 /* Main.storyboard */,
 				04B31493207A73D000D97702 /* SetViewController.swift */,
 				04B314A6207A842700D97702 /* Set.swift */,
+				04B314AC207A8F0100D97702 /* Deck.swift */,
 				04B314A8207A862B00D97702 /* Card.swift */,
 				04B314A4207A83DF00D97702 /* Constants.swift */,
+				04B314AA207A886900D97702 /* Extensions.swift */,
 				04B3149D207A73D200D97702 /* Info.plist */,
 				04B314A3207A743800D97702 /* Support Files */,
 			);
@@ -152,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B314AD207A8F0100D97702 /* Deck.swift in Sources */,
 				04B314A7207A842700D97702 /* Set.swift in Sources */,
+				04B314AB207A886900D97702 /* Extensions.swift in Sources */,
 				04B31494207A73D000D97702 /* SetViewController.swift in Sources */,
 				04B314A9207A862B00D97702 /* Card.swift in Sources */,
 				04B31492207A73D000D97702 /* AppDelegate.swift in Sources */,

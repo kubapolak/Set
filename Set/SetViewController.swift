@@ -30,14 +30,16 @@ class SetViewController: UIViewController {
     private func updateViewFromModel() {
         for index in visibleCardButtons.indices {
             let button = visibleCardButtons[index]
-            setCardSymbol(with: "\(game.cards[index].hashVaue)", on: button)
+            setCardSymbol(with: "\(game.cards[index].symbol)", of: colors[0], on: button)
         }
     }
     
-    private func setCardSymbol(with string: String, on button: UIButton) {
-        
-        let attributedString = NSAttributedString(string: string, attributes: symbolAttributes)
+    private func setCardSymbol(with string: String, of color: UIColor, on button: UIButton) {
+        var attributes = symbolAttributes
+        attributes[NSAttributedStringKey.foregroundColor] = colors[0].withAlphaComponent(0.15)
+        let attributedString = NSAttributedString(string: string, attributes: attributes)
         button.setAttributedTitle(attributedString, for: .normal)
+        
     }
     
     

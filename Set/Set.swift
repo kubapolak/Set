@@ -9,12 +9,15 @@
 import Foundation
 
 struct Set {
+    
+    var deck = Deck()
     private(set) var cards = [Card]()
     
     init() {
         for _ in 1...24 {
-            let card = Card()
-            cards += [card]
+            let index = cards.count.arc4random
+            let card = deck.cards.removeFirst()
+            cards.insert(card, at: index)
         }
     }
 }
